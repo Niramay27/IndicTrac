@@ -1,0 +1,8 @@
+2025-03-23 00:00:15,391 - __main__ - INFO - Using device: cuda
+2025-03-23 00:00:15,429 - __main__ - INFO - Loading model and processor from facebook/hf-seamless-m4t-medium
+2025-03-23 00:00:24,666 - __main__ - INFO - Loading dataset from s2t_manifest.json
+2025-03-23 00:00:27,755 - __main__ - INFO - Dataset loaded: 63250 training samples, 7028 test samples
+2025-03-23 00:00:27,756 - __main__ - INFO - Setting up training arguments
+2025-03-23 00:00:27,854 - __main__ - INFO - Creating trainer
+2025-03-23 00:00:29,499 - __main__ - INFO - Starting training
+2025-03-23 00:00:59,085 - __main__ - ERROR - Error during training: CUDA out of memory. Tried to allocate 4.37 GiB. GPU 0 has a total capacity of 39.39 GiB of which 506.19 MiB is free. Process 10937 has 1.90 GiB memory in use. Process 11923 has 1.89 GiB memory in use. Process 57423 has 13.31 GiB memory in use. Including non-PyTorch memory, this process has 21.76 GiB memory in use. Of the allocated memory 20.01 GiB is allocated by PyTorch, and 1.24 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
