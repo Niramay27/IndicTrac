@@ -9,7 +9,8 @@ This repository contains code and scripts for fine-tuning SeamlessM4T and Whispe
 - **`results`**: Logging file containing the SeamlessM4T model logging data.
 - **`environment.yaml`**: The current Conda environment requirements.
 - **`sM4T.ipynb`**: Jupyter notebook for fine-tuning the SeamlessM4T model.
-- **`VAD.ipynb`**: Pipeline for creating the dataset and saving it as a JSONL file.
+- **`VAD_cosine.ipynb`**: Pipeline for creating the dataset and saving it as a JSONL file using **cosine similarity allignment**
+- **`VAD.ipynb`**: Pipeline for creating the dataset and saving it as a JSONL file using different allignment ( experimental file )
 - **`prepare_custom_dataset.py`**: Script to update the JSONL file as required by the SeamlessM4T model.
 - **`whisper.ipynb`**: Jupyter notebook for fine-tuning the Whisper model.
 
